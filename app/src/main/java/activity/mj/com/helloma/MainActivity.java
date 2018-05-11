@@ -41,7 +41,6 @@ public class MainActivity extends InstrumentedActivity {
 
       //  JPushInterface.init(getApplicationContext());
         registerMessageReceiver();
-        System.out.print("111");
         url = getIntent().getStringExtra("url");
         mWebview = (WebView) findViewById(R.id.wb_chenpeng);
         pb = (ProgressBar) findViewById(R.id.pb_gress);
