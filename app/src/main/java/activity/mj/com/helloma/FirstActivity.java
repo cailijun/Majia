@@ -26,6 +26,7 @@ public class FirstActivity extends Activity{
         initData();
         System.out.print("1.0版本的修改");
         System.out.print("2.0devolop");
+        System.out.print("3.0devolop");
     }
 
     private void initData() {
