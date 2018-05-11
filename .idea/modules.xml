@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HelloMa.iml" filepath="$PROJECT_DIR$/HelloMa.iml" />
+      <module fileurl="file://F:\Majia\HelloMa.iml" filepath="F:\Majia\HelloMa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Majia.iml" filepath="$PROJECT_DIR$/Majia.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
