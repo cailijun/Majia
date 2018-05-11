@@ -24,6 +24,7 @@ public class FirstActivity extends Activity{
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_first);
         initData();
+        System.out.print("1.0版本的修改");
     }
 
     private void initData() {
