@@ -24,7 +24,7 @@ public class FirstActivity extends Activity{
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_first);
         initData();
-
+        System.out.printf("111");
     }
 
     private void initData() {
