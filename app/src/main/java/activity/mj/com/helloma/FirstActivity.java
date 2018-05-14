@@ -24,11 +24,11 @@ public class FirstActivity extends Activity{
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_first);
         initData();
-
+        System.out.print("1111");
     }
 
     private void initData() {
-        System.out.printf("2222");
+
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://1114600.com:8080/")
                 .addConverterFactory(GsonConverterFactory.create())

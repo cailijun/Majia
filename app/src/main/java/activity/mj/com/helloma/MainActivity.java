@@ -38,7 +38,7 @@ public class MainActivity extends InstrumentedActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        System.out.printf("22222");
+
       //  JPushInterface.init(getApplicationContext());
         registerMessageReceiver();
         url = getIntent().getStringExtra("url");
