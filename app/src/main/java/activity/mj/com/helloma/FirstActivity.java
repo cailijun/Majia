@@ -28,7 +28,6 @@ public class FirstActivity extends Activity{
     }
 
     private void initData() {
-        System.out.print("test");
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://1114600.com:8080/")
                 .addConverterFactory(GsonConverterFactory.create())
