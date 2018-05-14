@@ -25,6 +25,7 @@ public class FirstActivity extends Activity{
         setContentView(R.layout.activity_first);
         initData();
         System.out.print("3333");
+        System.out.print("44444");
         System.out.print("5555");
     }
 
